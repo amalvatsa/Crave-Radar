@@ -8,7 +8,7 @@ import * as Location from 'expo-location';
 import axios from 'axios';
 import DropDownPicker from 'react-native-dropdown-picker';
 
-const GOOGLE_API_KEY = "AIzaSyDUm42nhQGeHJz2c8x5BrHTU7faPLGC6TI";
+const GOOGLE_API_KEY = "****";
 
 export default function App() {
   const [location, setLocation] = useState(null);
