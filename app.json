@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "CRAVE RADAR",
+    "slug": "RestaurantFinder",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "craveradar",
+    "icon": "./assets/mainicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/mainicon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.craveradar.app"
+    },
+    "android": {
+      "package": "com.craveradar.app",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "googleMaps": {
+        "apiKey": "AIzaSyDUm42nhQGeHJz2c8x5BrHTU7faPLGC6TI"
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/mainicon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow CRAVE RADAR to access your location",
+          "locationWhenInUsePermission": "Allow CRAVE RADAR to access your location while using the app"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "5ee964b4-e473-4bac-912a-7aefe82226c4"
+      }
+    }
+  }
+}
